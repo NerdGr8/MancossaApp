@@ -7,6 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		688409AC08D3AC95FC2C7BD8 /* Pods_MyMancosa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB974BFDA4E757A2DBDA845A /* Pods_MyMancosa.framework */; };
+		EF7A6EA92123F03E0033516E /* logo-white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF7A6EA72123F03E0033516E /* logo-white.jpg */; };
+		EF7A6EAA2123F03E0033516E /* MANCOSA-Logo-2018.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF7A6EA82123F03E0033516E /* MANCOSA-Logo-2018.jpg */; };
+		EF7A6EB0212420360033516E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6EAD212420360033516E /* Utilities.swift */; };
+		EF7A6EB1212420360033516E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6EAE212420360033516E /* Extensions.swift */; };
+		EF7A6EB2212420360033516E /* AnyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6EAF212420360033516E /* AnyClass.swift */; };
+		EF7A6EB4212437200033516E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6EB3212437200033516E /* API.swift */; };
+		EF7A6EB62124567E0033516E /* AnouncementsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6EB52124567E0033516E /* AnouncementsVC.swift */; };
+		EF7A6EB8212457020033516E /* AssignmentsCalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6EB7212457020033516E /* AssignmentsCalendarVC.swift */; };
+		EF7A6EBA212457490033516E /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6EB9212457490033516E /* MyProfileVC.swift */; };
+		EF7A6EBC2124576F0033516E /* MainTBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6EBB2124576F0033516E /* MainTBVC.swift */; };
+		EF7A6EC1212458050033516E /* CustomTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6EBF212458040033516E /* CustomTabBarItem.swift */; };
+		EF7A6EC2212458050033516E /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6EC0212458040033516E /* CustomTabBar.swift */; };
+		EF7A6ECA21256B480033516E /* ProfileAtrribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6EC821256B480033516E /* ProfileAtrribute.swift */; };
+		EF7A6ECB21256B480033516E /* ProfileAtrribute.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7A6EC921256B480033516E /* ProfileAtrribute.xib */; };
+		EF7A6ED021256BAC0033516E /* AnnouncementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6ECE21256BAC0033516E /* AnnouncementTableViewCell.swift */; };
+		EF7A6ED121256BAC0033516E /* AnnouncementTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7A6ECF21256BAC0033516E /* AnnouncementTableViewCell.xib */; };
+		EF7A6ED421256C700033516E /* BookListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6ED221256C700033516E /* BookListingTableViewCell.swift */; };
+		EF7A6ED521256C700033516E /* BookListingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7A6ED321256C700033516E /* BookListingTableViewCell.xib */; };
+		EF7A6ED8212571E10033516E /* BookItemResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6ED7212571E10033516E /* BookItemResponse.swift */; };
+		EF7A6EDA2125731C0033516E /* AssignmentCalendarItemResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6ED92125731C0033516E /* AssignmentCalendarItemResponse.swift */; };
+		EF7A6EDC212573E90033516E /* AnnouncementItemResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6EDB212573E90033516E /* AnnouncementItemResponse.swift */; };
+		EF7A6EDE212574880033516E /* MyProfileAttributesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6EDD212574880033516E /* MyProfileAttributesResponse.swift */; };
+		EF7A6EE1212579E50033516E /* AssignmentTimeTableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6EDF212579E50033516E /* AssignmentTimeTableTableViewCell.swift */; };
+		EF7A6EE2212579E50033516E /* AssignmentTimeTableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7A6EE0212579E50033516E /* AssignmentTimeTableTableViewCell.xib */; };
+		EF7A6EE4212581090033516E /* AnnouncementModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6EE3212581090033516E /* AnnouncementModelView.swift */; };
+		EF7A6EE62125A2B50033516E /* MyProfileAttributesModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6EE52125A2B50033516E /* MyProfileAttributesModelView.swift */; };
+		EF7A6EE82125AA1E0033516E /* AssignmentCalendarModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6EE72125AA1E0033516E /* AssignmentCalendarModelView.swift */; };
+		EF7A6EEA2126173B0033516E /* BooksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6EE92126173B0033516E /* BooksVC.swift */; };
+		EF7A6EEC212618E60033516E /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6EEB212618E60033516E /* BookViewModel.swift */; };
+		EF7A6EEE21262D950033516E /* BookDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6EED21262D950033516E /* BookDetailsVC.swift */; };
+		EF7A6EF02126300A0033516E /* BookItemsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A6EEF2126300A0033516E /* BookItemsDetails.swift */; };
 		EF8433F12122B46B0009DF89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8433F02122B46B0009DF89 /* AppDelegate.swift */; };
 		EF8433F32122B46B0009DF89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8433F22122B46B0009DF89 /* ViewController.swift */; };
 		EF8433F62122B46B0009DF89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8433F42122B46B0009DF89 /* Main.storyboard */; };
@@ -15,6 +47,40 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		055EBD34F70FA8FDD483B06B /* Pods-MyMancosa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMancosa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyMancosa/Pods-MyMancosa.debug.xcconfig"; sourceTree = "<group>"; };
+		D643DB271F93282A87E38437 /* Pods-MyMancosa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMancosa.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyMancosa/Pods-MyMancosa.release.xcconfig"; sourceTree = "<group>"; };
+		DB974BFDA4E757A2DBDA845A /* Pods_MyMancosa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMancosa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7A6EA72123F03E0033516E /* logo-white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo-white.jpg"; sourceTree = "<group>"; };
+		EF7A6EA82123F03E0033516E /* MANCOSA-Logo-2018.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "MANCOSA-Logo-2018.jpg"; sourceTree = "<group>"; };
+		EF7A6EAD212420360033516E /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		EF7A6EAE212420360033516E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EF7A6EAF212420360033516E /* AnyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyClass.swift; sourceTree = "<group>"; };
+		EF7A6EB3212437200033516E /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		EF7A6EB52124567E0033516E /* AnouncementsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnouncementsVC.swift; path = MyMancosa/AnouncementsVC.swift; sourceTree = SOURCE_ROOT; };
+		EF7A6EB7212457020033516E /* AssignmentsCalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentsCalendarVC.swift; sourceTree = "<group>"; };
+		EF7A6EB9212457490033516E /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
+		EF7A6EBB2124576F0033516E /* MainTBVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTBVC.swift; sourceTree = "<group>"; };
+		EF7A6EBF212458040033516E /* CustomTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarItem.swift; sourceTree = "<group>"; };
+		EF7A6EC0212458040033516E /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		EF7A6EC821256B480033516E /* ProfileAtrribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileAtrribute.swift; sourceTree = "<group>"; };
+		EF7A6EC921256B480033516E /* ProfileAtrribute.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileAtrribute.xib; sourceTree = "<group>"; };
+		EF7A6ECE21256BAC0033516E /* AnnouncementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementTableViewCell.swift; sourceTree = "<group>"; };
+		EF7A6ECF21256BAC0033516E /* AnnouncementTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnnouncementTableViewCell.xib; sourceTree = "<group>"; };
+		EF7A6ED221256C700033516E /* BookListingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListingTableViewCell.swift; sourceTree = "<group>"; };
+		EF7A6ED321256C700033516E /* BookListingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookListingTableViewCell.xib; sourceTree = "<group>"; };
+		EF7A6ED7212571E10033516E /* BookItemResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookItemResponse.swift; sourceTree = "<group>"; };
+		EF7A6ED92125731C0033516E /* AssignmentCalendarItemResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentCalendarItemResponse.swift; sourceTree = "<group>"; };
+		EF7A6EDB212573E90033516E /* AnnouncementItemResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementItemResponse.swift; sourceTree = "<group>"; };
+		EF7A6EDD212574880033516E /* MyProfileAttributesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileAttributesResponse.swift; sourceTree = "<group>"; };
+		EF7A6EDF212579E50033516E /* AssignmentTimeTableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentTimeTableTableViewCell.swift; sourceTree = "<group>"; };
+		EF7A6EE0212579E50033516E /* AssignmentTimeTableTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssignmentTimeTableTableViewCell.xib; sourceTree = "<group>"; };
+		EF7A6EE3212581090033516E /* AnnouncementModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementModelView.swift; sourceTree = "<group>"; };
+		EF7A6EE52125A2B50033516E /* MyProfileAttributesModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileAttributesModelView.swift; sourceTree = "<group>"; };
+		EF7A6EE72125AA1E0033516E /* AssignmentCalendarModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentCalendarModelView.swift; sourceTree = "<group>"; };
+		EF7A6EE92126173B0033516E /* BooksVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksVC.swift; sourceTree = "<group>"; };
+		EF7A6EEB212618E60033516E /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
+		EF7A6EED21262D950033516E /* BookDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsVC.swift; sourceTree = "<group>"; };
+		EF7A6EEF2126300A0033516E /* BookItemsDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookItemsDetails.swift; sourceTree = "<group>"; };
 		EF8433ED2122B46B0009DF89 /* MyMancosa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMancosa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8433F02122B46B0009DF89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF8433F22122B46B0009DF89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +95,154 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				688409AC08D3AC95FC2C7BD8 /* Pods_MyMancosa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		018C843216EF9E7126BF2FD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				055EBD34F70FA8FDD483B06B /* Pods-MyMancosa.debug.xcconfig */,
+				D643DB271F93282A87E38437 /* Pods-MyMancosa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C72C5177DFE6142E9AF3BD0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB974BFDA4E757A2DBDA845A /* Pods_MyMancosa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF7A6EA52123F0080033516E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		EF7A6EA62123F03E0033516E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EF7A6EA52123F0080033516E /* Images */,
+				EF7A6EA72123F03E0033516E /* logo-white.jpg */,
+				EF7A6EA82123F03E0033516E /* MANCOSA-Logo-2018.jpg */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		EF7A6EAB2123F35E0033516E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				EF7A6ED6212571D20033516E /* DataModels */,
+				EF7A6EB3212437200033516E /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		EF7A6EAC212420360033516E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF7A6EAD212420360033516E /* Utilities.swift */,
+				EF7A6EAE212420360033516E /* Extensions.swift */,
+				EF7A6EAF212420360033516E /* AnyClass.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EF7A6EBD212458040033516E /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				EF7A6EC3212569DD0033516E /* TableCells */,
+				EF7A6EBE212458040033516E /* Custom Tab Bar */,
+			);
+			path = CustomControls;
+			sourceTree = "<group>";
+		};
+		EF7A6EBE212458040033516E /* Custom Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				EF7A6EBF212458040033516E /* CustomTabBarItem.swift */,
+				EF7A6EC0212458040033516E /* CustomTabBar.swift */,
+			);
+			path = "Custom Tab Bar";
+			sourceTree = "<group>";
+		};
+		EF7A6EC3212569DD0033516E /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				EF7A6EC721256A370033516E /* Profile */,
+				EF7A6EC621256A2C0033516E /* Books */,
+				EF7A6EC5212569F10033516E /* AssignmentTimeTable */,
+				EF7A6EC4212569E70033516E /* Announcements */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		EF7A6EC4212569E70033516E /* Announcements */ = {
+			isa = PBXGroup;
+			children = (
+				EF7A6ECE21256BAC0033516E /* AnnouncementTableViewCell.swift */,
+				EF7A6ECF21256BAC0033516E /* AnnouncementTableViewCell.xib */,
+			);
+			path = Announcements;
+			sourceTree = "<group>";
+		};
+		EF7A6EC5212569F10033516E /* AssignmentTimeTable */ = {
+			isa = PBXGroup;
+			children = (
+				EF7A6EDF212579E50033516E /* AssignmentTimeTableTableViewCell.swift */,
+				EF7A6EE0212579E50033516E /* AssignmentTimeTableTableViewCell.xib */,
+			);
+			path = AssignmentTimeTable;
+			sourceTree = "<group>";
+		};
+		EF7A6EC621256A2C0033516E /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				EF7A6ED221256C700033516E /* BookListingTableViewCell.swift */,
+				EF7A6ED321256C700033516E /* BookListingTableViewCell.xib */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		EF7A6EC721256A370033516E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EF7A6EC821256B480033516E /* ProfileAtrribute.swift */,
+				EF7A6EC921256B480033516E /* ProfileAtrribute.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		EF7A6ED6212571D20033516E /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				EF7A6ED7212571E10033516E /* BookItemResponse.swift */,
+				EF7A6EEB212618E60033516E /* BookViewModel.swift */,
+				EF7A6EEF2126300A0033516E /* BookItemsDetails.swift */,
+				EF7A6ED92125731C0033516E /* AssignmentCalendarItemResponse.swift */,
+				EF7A6EE72125AA1E0033516E /* AssignmentCalendarModelView.swift */,
+				EF7A6EDB212573E90033516E /* AnnouncementItemResponse.swift */,
+				EF7A6EE3212581090033516E /* AnnouncementModelView.swift */,
+				EF7A6EDD212574880033516E /* MyProfileAttributesResponse.swift */,
+				EF7A6EE52125A2B50033516E /* MyProfileAttributesModelView.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
 		EF8433E42122B46B0009DF89 = {
 			isa = PBXGroup;
 			children = (
 				EF8433EF2122B46B0009DF89 /* MyMancosa */,
 				EF8433EE2122B46B0009DF89 /* Products */,
+				018C843216EF9E7126BF2FD8 /* Pods */,
+				C72C5177DFE6142E9AF3BD0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,9 +257,19 @@
 		EF8433EF2122B46B0009DF89 /* MyMancosa */ = {
 			isa = PBXGroup;
 			children = (
+				EF7A6EBD212458040033516E /* CustomControls */,
+				EF7A6EAC212420360033516E /* Extensions */,
+				EF7A6EA62123F03E0033516E /* Assets */,
+				EF7A6EAB2123F35E0033516E /* API */,
+				EF7A6EB9212457490033516E /* MyProfileVC.swift */,
+				EF7A6EBB2124576F0033516E /* MainTBVC.swift */,
+				EF7A6EE92126173B0033516E /* BooksVC.swift */,
+				EF7A6EED21262D950033516E /* BookDetailsVC.swift */,
 				EF8433F02122B46B0009DF89 /* AppDelegate.swift */,
 				EF8433F22122B46B0009DF89 /* ViewController.swift */,
 				EF8433F42122B46B0009DF89 /* Main.storyboard */,
+				EF7A6EB7212457020033516E /* AssignmentsCalendarVC.swift */,
+				EF7A6EB52124567E0033516E /* AnouncementsVC.swift */,
 				EF8433F72122B46C0009DF89 /* Assets.xcassets */,
 				EF8433F92122B46C0009DF89 /* LaunchScreen.storyboard */,
 				EF8433FC2122B46D0009DF89 /* Info.plist */,
@@ -71,9 +284,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF8433FF2122B46D0009DF89 /* Build configuration list for PBXNativeTarget "MyMancosa" */;
 			buildPhases = (
+				75269FE05A8C67172C80CE42 /* [CP] Check Pods Manifest.lock */,
 				EF8433E92122B46B0009DF89 /* Sources */,
 				EF8433EA2122B46B0009DF89 /* Frameworks */,
 				EF8433EB2122B46B0009DF89 /* Resources */,
+				54253F689534432EB71CEA58 /* [CP] Embed Pods Frameworks */,
+				AF1223DAA5CA3094993D91A6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,7 +338,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7A6ECB21256B480033516E /* ProfileAtrribute.xib in Resources */,
+				EF7A6EA92123F03E0033516E /* logo-white.jpg in Resources */,
+				EF7A6EE2212579E50033516E /* AssignmentTimeTableTableViewCell.xib in Resources */,
 				EF8433FB2122B46C0009DF89 /* LaunchScreen.storyboard in Resources */,
+				EF7A6ED121256BAC0033516E /* AnnouncementTableViewCell.xib in Resources */,
+				EF7A6EAA2123F03E0033516E /* MANCOSA-Logo-2018.jpg in Resources */,
+				EF7A6ED521256C700033516E /* BookListingTableViewCell.xib in Resources */,
 				EF8433F82122B46C0009DF89 /* Assets.xcassets in Resources */,
 				EF8433F62122B46B0009DF89 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +352,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54253F689534432EB71CEA58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyMancosa/Pods-MyMancosa-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/ReadMoreTextView/ReadMoreTextView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftIcons/SwiftIcons.framework",
+				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReadMoreTextView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftIcons.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyMancosa/Pods-MyMancosa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75269FE05A8C67172C80CE42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyMancosa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF1223DAA5CA3094993D91A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyMancosa/Pods-MyMancosa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF8433E92122B46B0009DF89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7A6EDA2125731C0033516E /* AssignmentCalendarItemResponse.swift in Sources */,
+				EF7A6EB2212420360033516E /* AnyClass.swift in Sources */,
+				EF7A6EE82125AA1E0033516E /* AssignmentCalendarModelView.swift in Sources */,
+				EF7A6EB62124567E0033516E /* AnouncementsVC.swift in Sources */,
+				EF7A6EB0212420360033516E /* Utilities.swift in Sources */,
+				EF7A6EE1212579E50033516E /* AssignmentTimeTableTableViewCell.swift in Sources */,
 				EF8433F32122B46B0009DF89 /* ViewController.swift in Sources */,
+				EF7A6EEA2126173B0033516E /* BooksVC.swift in Sources */,
+				EF7A6ED8212571E10033516E /* BookItemResponse.swift in Sources */,
+				EF7A6EE4212581090033516E /* AnnouncementModelView.swift in Sources */,
+				EF7A6EC2212458050033516E /* CustomTabBar.swift in Sources */,
+				EF7A6EDC212573E90033516E /* AnnouncementItemResponse.swift in Sources */,
 				EF8433F12122B46B0009DF89 /* AppDelegate.swift in Sources */,
+				EF7A6EBC2124576F0033516E /* MainTBVC.swift in Sources */,
+				EF7A6EB8212457020033516E /* AssignmentsCalendarVC.swift in Sources */,
+				EF7A6EF02126300A0033516E /* BookItemsDetails.swift in Sources */,
+				EF7A6ECA21256B480033516E /* ProfileAtrribute.swift in Sources */,
+				EF7A6EBA212457490033516E /* MyProfileVC.swift in Sources */,
+				EF7A6EB4212437200033516E /* API.swift in Sources */,
+				EF7A6ED421256C700033516E /* BookListingTableViewCell.swift in Sources */,
+				EF7A6EDE212574880033516E /* MyProfileAttributesResponse.swift in Sources */,
+				EF7A6EEC212618E60033516E /* BookViewModel.swift in Sources */,
+				EF7A6EB1212420360033516E /* Extensions.swift in Sources */,
+				EF7A6EEE21262D950033516E /* BookDetailsVC.swift in Sources */,
+				EF7A6EE62125A2B50033516E /* MyProfileAttributesModelView.swift in Sources */,
+				EF7A6ED021256BAC0033516E /* AnnouncementTableViewCell.swift in Sources */,
+				EF7A6EC1212458050033516E /* CustomTabBarItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +587,13 @@
 		};
 		EF8434002122B46D0009DF89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 055EBD34F70FA8FDD483B06B /* Pods-MyMancosa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DMHUX339H;
 				INFOPLIST_FILE = MyMancosa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,11 +607,13 @@
 		};
 		EF8434012122B46D0009DF89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D643DB271F93282A87E38437 /* Pods-MyMancosa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DMHUX339H;
 				INFOPLIST_FILE = MyMancosa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

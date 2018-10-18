@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="70" id="KGk-i7-Jjw" customClass="AssignmentTimeTableTableViewCell" customModule="MyMancosa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Business Management 1A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1lz-cf-cMW">
+                        <rect key="frame" x="16" y="11" width="288" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.15086625649999999" green="0.15086625649999999" blue="0.15086625649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXY-gM-OWg">
+                        <rect key="frame" x="16" y="33" width="143" height="20"/>
+                        <string key="text">10 Sep 2018	</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.15086625649999999" green="0.15086625649999999" blue="0.15086625649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pfe-69-PSz">
+                        <rect key="frame" x="167" y="33" width="143" height="20"/>
+                        <string key="text">10 Sep 2018	</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.15086625649999999" green="0.15086625649999999" blue="0.15086625649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="dXY-gM-OWg" secondAttribute="trailing" constant="161" id="Gi5-xV-W54"/>
+                    <constraint firstItem="dXY-gM-OWg" firstAttribute="top" secondItem="1lz-cf-cMW" secondAttribute="bottom" constant="7.5" id="L4b-kg-lMV"/>
+                    <constraint firstAttribute="trailing" secondItem="1lz-cf-cMW" secondAttribute="trailing" constant="16" id="QoG-S2-rx1"/>
+                    <constraint firstAttribute="bottom" secondItem="dXY-gM-OWg" secondAttribute="bottom" constant="17" id="Ra2-Ys-deh"/>
+                    <constraint firstAttribute="trailing" secondItem="1lz-cf-cMW" secondAttribute="trailing" constant="16" id="gqC-Gd-fyl"/>
+                    <constraint firstItem="Pfe-69-PSz" firstAttribute="leading" secondItem="dXY-gM-OWg" secondAttribute="trailing" constant="8" id="kEA-fO-oPw"/>
+                    <constraint firstItem="dXY-gM-OWg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="khr-w8-eJM"/>
+                    <constraint firstItem="1lz-cf-cMW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="mZb-ii-Mte"/>
+                    <constraint firstAttribute="trailing" secondItem="Pfe-69-PSz" secondAttribute="trailing" constant="10" id="mkK-o0-BKE"/>
+                    <constraint firstItem="1lz-cf-cMW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="oiU-AO-1ji"/>
+                    <constraint firstAttribute="bottom" secondItem="Pfe-69-PSz" secondAttribute="bottom" constant="16.5" id="zsC-zj-0mN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="CourseTitle" destination="1lz-cf-cMW" id="UDO-C4-saa"/>
+                <outlet property="DueDate" destination="dXY-gM-OWg" id="TVj-Ij-wD6"/>
+            </connections>
+            <point key="canvasLocation" x="49" y="67"/>
+        </tableViewCell>
+    </objects>
+</document>
