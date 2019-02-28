@@ -1,5 +1,7 @@
 # MancossaApp
-Swift application wrapper for the Mancossa.co.za
+Swift application wrapper for the Mancosa.co.za Student Portal.
+
+#### This is for demostraion and educational purposes.
 
 ![Design](https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/0da42169185503.5b779f5d27096.png)
 
